@@ -12,7 +12,7 @@ const Contact = () => (
           href="mailto:laxmitinkusahu@email.com"
           className="text-blue-600 underline hover:text-pink-500 transition-colors duration-200"
         >
-          laxmirinikusahu@gmail.com
+          laxmirinkusahu@gmail.com
         </a>
       </p>
       <p className="text-gray-700 dark:text-gray-200 text-lg">
@@ -28,7 +28,7 @@ const Contact = () => (
       </p>
       <div className="flex space-x-4 mt-2">
         <a
-          href="mailto:laxmirinikusahu@gmail.com"
+          href="mailto:laxmirinkusahu@gmail.com"
           className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 to-pink-400 text-white shadow-lg hover:scale-110 transition-transform duration-200"
           aria-label="Email"
         >
