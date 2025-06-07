@@ -16,7 +16,7 @@ const Header = () => {
       <nav className="bg-white/80 backdrop-blur shadow-lg mb-4 transition-all duration-300" aria-label="Main navigation">
         <div className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
           <span className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 select-none tracking-tight drop-shadow">
-            🎨 Artist Portfolio
+            🎨 Alen Sahu Art
           </span>
           {/* Desktop Nav */}
           <div className="hidden md:flex space-x-8">

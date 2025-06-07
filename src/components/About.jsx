@@ -8,7 +8,7 @@ const About = () => (
       {/* Profile image */}
       <div className="flex justify-center mb-4">
         <img
-          src="https://randomuser.me/api/portraits/men/32.jpg"
+          src="https://yt3.googleusercontent.com/MiHUZIVJ8d-iOcJPxQQXrInjwT469PCR-xDh08rh0Mv4OGJ5oT3aJT-i3eDxpu3AzTlPphd0pw=s160-c-k-c0x00ffffff-no-rj"
           alt="Artist portrait"
           className="w-24 h-24 rounded-full border-4 border-gradient-to-r from-blue-400 via-purple-400 to-pink-400 shadow-lg object-cover"
         />
@@ -24,10 +24,38 @@ const About = () => (
         </span>
         <span className="block text-sm text-gray-500 mt-2">— Edgar Degas</span>
       </p>
+      {/* Social Links */}
+      <div className="flex justify-center gap-6 mt-6">
+        <a
+          href="https://www.instagram.com/alen_sahu_art/?igsh=N2Rsa2FsN3RlczJ3#"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+          className="transition-transform hover:scale-110"
+        >
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="4" stroke="#a78bfa" strokeWidth="2"/>
+            <rect x="2" y="2" width="20" height="20" rx="6" stroke="#a78bfa" strokeWidth="2"/>
+            <circle cx="18" cy="6" r="1" fill="#a78bfa"/>
+          </svg>
+        </a>
+        <a
+          href="https://www.facebook.com/LaxminarayanSahuArt/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+          className="transition-transform hover:scale-110"
+        >
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="6" stroke="#a78bfa" strokeWidth="2"/>
+            <path d="M16 8.5h-2a1 1 0 0 0-1 1V12h3l-.5 2H13v6h-2v-6H8v-2h3v-2a3 3 0 0 1 3-3h2v2z" fill="#a78bfa"/>
+          </svg>
+        </a>
+      </div>
       {/* Signature */}
       <div className="mt-6 flex justify-center">
         <span className="font-signature text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 tracking-widest">
-          — Alex Artist
+          — Alen Sahu Art
         </span>
       </div>
     </div>
